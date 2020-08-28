@@ -1,7 +1,7 @@
 {
   "name": "@er1c/chronomouse",
   "version": "1.0.3",
-  "description": "These package was forked for fix on not working Jordan and Greenland country",
+  "description": "These package was forked from original project Chronomouse.js",
   "scripts": {
     "minifyJS": "uglifyjs chronomouse.js --compress --mangle --warn --output chronomouse.$(npm run version:extract --silent).min.js",
     "production": "rm -f chronomouse.$(npm run version:extract --silent).min.js && npm run version:bump --silent && npm run minifyJS --silent",
