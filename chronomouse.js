@@ -596,6 +596,4 @@ function cleanText(x) {
 
 }
 
-module.exports = {
-    getLocalInfo
-}
+module.exports = getLocalInfo
