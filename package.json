@@ -15,8 +15,7 @@
   "repository": {
     "url": "https://github.com/er1cAk/chronomouse.git"
   },
-  "devDependencies": {},
-  "dependencies": {
+  "devDependencies": {
     "uglify-js": "^3.10.2"
   },
   "license": "MIT"

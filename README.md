@@ -7,22 +7,17 @@ Get information such as the current time, GMT offset, time zone name, location, 
 Currently supports US & Canada Area Codes and all Country Codes.
 
 ## Getting Started
-
-Download [chronomouse.2.4.0.min.js](http://www.chronomouse.com) (55 KB) and refer:
-
-```
-<script type='text/javascript' src='chronomouse.2.4.0.min.js'></script >
-```
-
-OR install with npm:
+Install with npm:
 
 ```
-$ npm i chronomouse
+$ npm i @er1c/chronomouse
 ```
 
 ## Examples
 
 ```
+import * as getLocalInfo from '@er1c/chronomouse
+
 console.log ( getLocalInfo('615').time.display );
 
 // 8:45 AM
