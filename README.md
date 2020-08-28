@@ -1,5 +1,7 @@
 # ChronoMouse.js
 
+The original repository: https://github.com/zMeadz/chronomouse
+
 ChronoMouse.js is a compact Javascript library that helps to get current time and location data for any phone number, area code, or country code.
 
 Get information such as the current time, GMT offset, time zone name, location, capital city, daylight savings laws, or daylight savings status.
