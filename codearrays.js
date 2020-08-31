@@ -2485,10 +2485,10 @@ var countryCodes = [
         start_month: 2,
         start_week: 4,
         start_offset: false,
-        start_day: false,
+        start_day: 4,
         end_month: 8,
         end_week: 4,
-        end_day: false
+        end_day: 4
     },
 
     {
@@ -3490,10 +3490,10 @@ var countryCodes = [
         start_month: 2,
         start_week: 4,
         start_offset: false,
-        start_day: false,
+        start_day: 5,
         end_month: 9,
         end_week: 4,
-        end_day: false
+        end_day: 5
     },
 
     {
@@ -3580,10 +3580,10 @@ var countryCodes = [
         start_month: 2,
         start_week: 4,
         start_offset: false,
-        start_day: false,
+        start_day: 4,
         end_month: 9,
         end_week: 4,
-        end_day: false
+        end_day: 4
     },
 
     {
@@ -3698,7 +3698,7 @@ var countryCodes = [
         offset: (-4),
         dst: false,
         start_month: false,
-        start_week: 1,
+        start_week: false,
         start_offset: false,
         start_day: false,
         end_month: false,

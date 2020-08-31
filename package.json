@@ -1,6 +1,6 @@
 {
   "name": "@er1c/chronomouse",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "These package was forked from original project Chronomouse.js",
   "scripts": {
     "minifyJS": "uglifyjs chronomouse.js --compress --mangle --warn --output chronomouse.$(npm run version:extract --silent).min.js",
