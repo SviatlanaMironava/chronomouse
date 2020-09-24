@@ -1,17 +1,17 @@
 {
   "name": "@er1c/chronomouse",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "description": "These package was forked from original project Chronomouse.js",
   "scripts": {
     "minifyJS": "uglifyjs chronomouse.js --compress --mangle --warn --output chronomouse.$(npm run version:extract --silent).min.js",
-    "production": "rm -f chronomouse.$(npm run version:extract --silent).min.js && npm run version:bump --silent && npm run minifyJS --silent",
+    "build-new-version": "rm -f chronomouse.$(npm run version:extract --silent).min.js && npm run version:bump --silent && npm run minifyJS --silent",
     "version:bump": "npm version patch --no-git-tag-version --silent",
     "version:extract": "cat package.json | grep version | head -1 | awk -F: '{ print $2 }' | sed 's/[,]//g' | tr -d '[[:space:]]' | tr -d \"\\\"\" "
   },
   "author": {
     "name": "er1c"
   },
-  "main": "chronomouse.1.0.4.min.js",
+  "main": "chronomouse.1.0.7.min.js",
   "repository": {
     "url": "https://github.com/er1cAk/chronomouse.git"
   },
