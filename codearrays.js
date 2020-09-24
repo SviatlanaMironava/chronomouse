@@ -1470,22 +1470,6 @@ var countryCodes = [
         end_week: 4,
         end_day: 0
     },
-
-    {
-        name: 'French Antilles',
-        code: '596',
-        capital: 'Fort-de-France',
-        offset: (-5),
-        dst: false,
-        start_month: false,
-        start_week: false,
-        start_offset: false,
-        start_day: false,
-        end_month: false,
-        end_week: false,
-        end_day: false
-    },
-
     {
         name: 'French Guiana',
         code: '594',
