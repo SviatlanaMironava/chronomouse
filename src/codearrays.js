@@ -2645,7 +2645,7 @@ var countryCodes = [
         code: '64',
         capital: 'Wellington',
         offset: (12),
-        dst: false,
+        dst: true,
         start_month: 9,
         start_week: 4,
         start_offset: false,
