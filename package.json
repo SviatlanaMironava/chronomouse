@@ -1,6 +1,6 @@
 {
   "name": "@er1c/chronomouse",
-  "version": "1.0.14",
+  "version": "1.0.16",
   "description": "These package was forked from original project Chronomouse.js",
   "main": "lib/chronomouse.min.js",
   "scripts": {
